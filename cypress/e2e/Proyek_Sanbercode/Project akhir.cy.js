@@ -12,6 +12,6 @@ describe ('scenario login', () => {
             cy.xpath("//button[normalize-space()='Login']").should('be.visible')
             cy.xpath("//button[normalize-space()='Login']").click()
             cy.url().should('include', '/dashboard');
-            
+        
     })
     })
